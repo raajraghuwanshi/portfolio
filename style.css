@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(247, 243, 243);
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    position:sticky;
+    top: 0;
+    background-color: ghostwhite;
+    margin: 10px 0px 0px 0px;
+}
+#head h1{
+    margin: 10px 10px 0px 50px;
+}
+
+#nav{
+    width: 60vw;
+    display: flex;
+    justify-content:space-evenly;
+    margin: 10px 10px 0px 10px;
+    position: sticky;
+    height: 8vh;
+    
+}
+#nav button{
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:ghostwhite;
+    
+}
+#home{
+    display: flex;
+    height: 99vh;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: antiquewhite;
+    margin-top: 10vh;
+    font-size: 25px;
+}
+#raj{
+    height: 40vh;
+    width: 15vw;
+    border-radius: 50px;
+    object-fit: cover;
+}
+#home h3{
+    line-height: 3;
+}
+#text{
+    margin-top: 30px;
+}
+#about{
+    margin-top: 30px;
+    height: 65vh;
+    background-color:rgb(248, 241, 232);
+    padding: 15vw 10vw 10vw 10vw;
+    line-height: 1.5;
+}
+#text1{
+    text-align: center;
+    padding: 0;
+
+    font-size: 50px;
+}
+#pro{
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(254, 250, 245);
+    height: 88vh;
+    padding: 70px 0 0 0;
+}
+#pro h1{
+    font-size: 50px;
+}
+#pro h3{
+    line-height: 20;
+}
+#con{
+    height:30vh;
+    margin-top: 30px;
+    text-align: center;
+    background-color: white;
+    padding: 50px 0 0 0 ;
+}
+#con h3{
+    line-height: 3;
+}
